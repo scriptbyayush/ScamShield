@@ -20,11 +20,9 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Android (Java / Kotlin)
+- **Frontend**: Android
 - **AI Tools**: OpenAI Whisper (Speech-to-Text), LLaMA 3.2 (NLP), Sentiment Analysis
-- **Backend**: Flask / FastAPI (Optional for self-hosted processing)
-- **Database**: RoomDB (on-device), Optional PostgreSQL (backend)
-- **Others**: Retrofit, Firebase (optional), ffmpeg (for audio conversion)
+- **Backend**: Flask 
 
 ---
 
@@ -42,8 +40,8 @@
 > Clone the project:
 
 ```bash
-git clone https://github.com/scriptbyayush/CallSy-AntiScam-AI.git
-cd CallSy-AntiScam-AI
+git clone https://github.com/scriptbyayush/ScamShield.git
+cd ScamShield
 ```
 
 > Android Studio:
@@ -72,7 +70,7 @@ if(result.isScam()) {
 
 ## 📷 Screenshots
 
-| Scam Alert | 
+| Sample Output | 
 |-----------|
 | ![](screenshots/callsy.jpeg) |
 
@@ -98,7 +96,7 @@ python app.py
 
 - **OpenAI Whisper** – Speech to Text
 - **LLaMA 3.2 NLP** – Contextual Language Understanding
-- **VADER / Custom Sentiment Analyzer** – Detect tone and emotional manipulation
+- **Custom Sentiment Analyzer** – Detect tone and emotional manipulation
 - **Keyword Pattern Engine** – Detects sensitive terms (e.g., OTP, PAN, CVV)
 
 ---
