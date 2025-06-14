@@ -76,7 +76,7 @@ if(result.isScam()) {
 
 ---
 
-## 📦 Backend Setup (Optional)
+## 📦 Backend Setup 
 
 ```bash
 # Create virtual environment
